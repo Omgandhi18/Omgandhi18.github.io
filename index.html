@@ -7,9 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type = "image/x-icon" href="/Images/WebsiteLogo.png">
 <title>Om Gandhi</title>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <header class = "topNav">
         <img src = "/Images/WebsiteLogo.png" id = "logo">
         <nav>
@@ -19,7 +21,56 @@
             <a class  = "topLinks" href = "#about">Contact me</a>
         </nav>
     </header>
-   
-    <h1 id = "about">About me</h1>
+    <!-- Empty Div to put some space -->
+    <div style="height: 100px;"></div>
+    <!-- AboutMe code -->
+    <div id = "AboutMe">
+        <div id = "profilePicAndCircle">
+            <img src="/Images/profile-pic.png" alt="" id="profilePic">
+            <div class="dot"></div>
+        </div>
+        <div id = "introDiv">
+            <h1 id = "about">About me</h1>
+            <p id = "intro">Hey there! I'm <b>Om Gandhi</b>, a budding Mobile developer with a passion for turning creative ideas into functional and user-friendly mobile apps. Proficient in Swift, Java and Python and eager to learn, I bring a fresh perspective to iOS development. While my toolkit in the recent years includes Xcode, UIKit, and Core Data, and, I'm committed to staying on top of the latest industry trends and I also have gained intermediate levels of knowledge in Android development using Java and Python and Machine Learning algorithms. Check out my portfolio for a glimpse into my work.</p>
+         </div>
+    </div>
+   <div id = "WorkExperienceDiv">
+    <h1 style="font-size: 40px;">Work Experience</h1>
+    <ul style="list-style-type: none">
+        <li>
+            <div>
+                <h2 class = "companyName">Tuple Infotech  (Jan 2023 - Oct 2023)</h2>
+                <h3 class = positionName>Jr. iOS Developer</h3>
+                <p class = "jobDescription">
+                </p>
+                <ul id = "pointsList">
+                    <li class="listItem">
+                        Researched and implemented the latest iOS technologies, resulting in a 30% increase in app functionality
+                    </li>
+                    <li class="listItem">
+                        Redesigned an existing app, changing from old legacy Objective - C code to modern Swift code, increasing app performance by 50%.
+                    </li>
+                    <li class="listItem">
+                        Contributed in the design of more than 3 apps to make the design seamless and easy to develop and work with.
+                    </li>
+                    <li class="listItem">
+                        Collaborated with the backend team to integrate custom made RESTful APIs in the app to reduce loading time along with introducing new features.
+                    </li>
+                    <li class="listItem">
+                        Worked with third party libraries like Alamofire and SVProgresshud to handle JSON parsing efficiently and make the user experience pleasant.
+                    </li>
+                    <li class="listItem">
+                        Implemented all the necessary fixes and delivered a bug-free app experience.
+                    </li>
+                    <li class="listItem">
+                        Conducted code reviews to remove unnecessary codes and improve app performance.
+                    </li>
+                </ul>
+
+            </div>
+        </li>
+    </ul>
+   </div>
+    
 </body>
 </html>

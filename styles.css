@@ -30,3 +30,68 @@ nav{
 body{
     background-color: #001524;
 }
+
+#profilePic{
+    height: auto;
+    width: 250px;
+    top: 0px;
+    left: 0px;
+    border: #FFECD1 5px solid;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#AboutMe{
+    display: flex;
+    text-align: justify;
+
+}
+#introDiv{
+    float: right;
+    margin-left: 40px;
+}
+#about{
+    color: #FFECD1;
+    margin-bottom: 0px;
+    padding: 0px;
+    float: left;
+    font-family: 'League Spartan', 'Courier New', Courier, monospace;
+}
+#intro{
+    color: #FFECD1;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    line-height: 40px;
+    padding: 0px;
+    font-size: 20px;
+    font-family:'League Spartan', 'Courier New', Courier, monospace;
+}
+#WorkExperienceDiv{
+    color: #FFECD1;
+    margin-left: 30px;
+    font-family: 'League Spartan', 'Courier New', Courier, monospace;
+}
+.companyName{
+   margin-bottom: 0px;
+   padding: 0px;
+   font-size: 30px;
+}
+.positionName{
+    margin-top: 10px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.jobDescription{
+    margin-top: 0px;
+    padding: 0px;
+}
+.pointsList{
+    padding-left: 0;
+    list-style: none;
+}
+.listItem{
+    list-style-type: decimal;
+    line-height: 30px;
+    font-size: 17px;
+    text-indent: 0%;
+}
