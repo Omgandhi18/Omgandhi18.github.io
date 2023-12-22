@@ -13,16 +13,18 @@
 <body>
     <!-- Navigation Bar -->
     <header class = "topNav">
-        <img src = "/Images/WebsiteLogo.png" id = "logo">
-        <nav>
-            <a class  = "topLinks" href = "#about">About</a>
-            <a class  = "topLinks" href = "#about">Projects</a>
-            <a class  = "topLinks" href = "#about">Resume</a>
-            <a class  = "topLinks" href = "#about">Contact me</a>
-        </nav>
+        <img src = "/Images/WebsiteLogo.png" class = "logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class = "menu">
+            <li class = "topListItems"><a class  = "topLinks" href = "#WorkExperienceDiv">Work Experience</a></li> 
+            <li class = "topListItems"><a class  = "topLinks" href = "#Skills">Tech Stack</a></li>
+            <li class = "topListItems"><a class  = "topLinks" href = "#about">Projects</a></li>
+            <li class = "topListItems"><a class  = "topLinks" href = "#about">Resume</a></li>
+        </ul>
     </header>
     <!-- Empty Div to put some space -->
-    <div style="height: 100px;"></div>
+    <div style="height: 150px;"></div>
     <!-- AboutMe code -->
     <div id = "AboutMe">
         <div id = "profilePicAndCircle">
@@ -33,8 +35,16 @@
             <p id = "intro">Hey there! I'm <b style="font-size: 30px;">Om Gandhi</b>, a budding Mobile developer with a passion for turning creative ideas into functional and user-friendly mobile apps. Proficient in Swift, Java and Python and eager to learn, I bring a fresh perspective to iOS development. While my toolkit in the recent years includes Xcode, UIKit, and Core Data, and, I'm committed to staying on top of the latest industry trends and I also have gained intermediate levels of knowledge in Android development using Java and Python and Machine Learning algorithms. Check out my projects for a glimpse into my work.</p>
          </div>
     </div>
+    <!-- Socials Div -->
+    <div id = "SocialDiv">
+        <h3 id = "SocialHeading">My Socials:</h3>
+        <p ><a class = "SocialLinks" href="mailto:omgandhi255@gmail.com" target="_blank">Mail</a></p>
+        <p ><a class="SocialLinks" href="https://github.com/Omgandhi18" target="_blank">Github</a></p>
+        <p ><a class="SocialLinks" href="https://www.linkedin.com/in/om-gandhi-3734b71b4/" target="_blank">LinkedIn</a></p>
+        <p ><a class="SocialLinks" href="https://www.instagram.com/wrld.of.om/" target="_blank">Instagram</a></p>
+    </div>
     <!-- Empty Div -->
-    <div style="height: 50px"></div>
+    <div style="height: 30px"></div>
     <!-- Work Experience-->
    <div id = "WorkExperienceDiv">
     <h1 style="font-size: 40px;">Work Experience</h1>
@@ -216,6 +226,7 @@
    </div>
    <!-- Empty Div -->
    <div style="height: 30;"></div>
+   <!-- Technical Projects -->
    <h2 id = "TechStackHeading">Technical Projects</h2>
    <div id = "TechnicalProjects">
         <div class = "ProjectItems">
@@ -270,6 +281,6 @@
             </ul>
         </div>
    </div>
-    
+
 </body>
 </html>
