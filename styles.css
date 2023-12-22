@@ -3,6 +3,10 @@
     --DarkBlue: #001524;
     --DarkTeal: #15616d;
     --White: white;
+    --Orange: #ff7d00;
+}
+*{
+    box-sizing: border-box;
 }
 .topNav > *{
     height: 50px;
@@ -49,7 +53,7 @@ body{
     display: flex;
     margin-left: 30px;
     margin-right: 30px;
-    text-align: justify;
+    text-align: left;
     border-radius: 20px;
     width: fit-content;
     box-shadow: 0px 0px 50px var(--DarkTeal);
@@ -213,4 +217,40 @@ body{
 }
 .githubLinks:visited{
     color: var(--Cream);
+}
+@media (max-width:320px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    #AboutMe{
+        display: inline-block;
+    }
+}
+@media (max-width:481px)  {
+     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+     #AboutMe{
+        display: inline-block;
+    }    
+}
+@media (max-width:641px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    #AboutMe{
+        display: inline-block;
+    }
+}
+@media (max-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    #AboutMe{
+        display: inline-block;
+    }
+}
+@media (max-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */ 
+     #AboutMe{
+        display: inline-block;
+    }    
+}
+@media (max-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    #AboutMe{
+        display: inline-block;
+    }
 }
