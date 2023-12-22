@@ -185,3 +185,32 @@ body{
     padding: 10px;
     font-size: 20px;
 }
+#TechnicalProjects>*{
+    margin: 70px;
+    font-family: 'League Spartan', 'Courier New', Courier, monospace;
+    color: var(--Cream);
+}
+.ProjectItems{
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: 10px;
+   line-height: 30px;
+   font-size: 20px;
+   border-radius: 30px;
+   box-shadow: 0px 0px 50px var(--DarkTeal);
+}
+.ProjectName{
+    font-size: 35px;
+}
+.githubLinks{
+        padding: 10px;
+        margin: 10px;
+}
+.githubLinks:link{
+    color: var(--Cream);
+}
+.githubLinks:visited{
+    color: var(--Cream);
+}
