@@ -338,7 +338,8 @@ body{
     bottom: 0px;
 }
 #SocialDiv>*
-{   width: 100%;
+{
+    width: fit-content;
     display: inline-block;
     text-align: center;
     font-size: 30px;
